@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Contact</title>
+
+    <style>
+      body {
+        background-color: #f2f6ff;
+        margin: 0;
+      }
+
+      #toolbar {
+        background-color: #014592;
+        padding: 20px;
+        text-align: center;
+      }
+
+      .toolbar-item {
+        font-size: 20px;
+        padding: 8px;
+        font-weight: 400;
+        text-decoration: underline;
+        color: white;
+      }
+
+      #hedding-title {
+        padding-left: 20px;
+        font-size: 20px;
+        text-align: center;
+      }
+
+      form {
+        background-color: #ffffff;
+        border: 1px solid #ccc;
+        width: 600px;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+      }
+
+      #input-container {
+        padding: 40px;
+      }
+
+      .input-box {
+        width: 100%;
+        font-size: 18px;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        margin-bottom: 36px;
+        border: 0;
+        border-bottom: 1px solid #ccc;
+      }
+
+      .submit-button {
+        background-color: #0056ff;
+        padding-top: 12px;
+        padding-bottom: 12px;
+        padding-left: 24px;
+        padding-right: 24px;
+        font-size: 18px;
+        color: white;
+        border: None;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="toolbar">
+      <span><a class="toolbar-item" href="/HomePage.html">TIPS</a></span>
+      <span><a class="toolbar-item" href="/About.html">ABOUT</a></span>
+      <span
+        ><a class="toolbar-item" href="#" onclick="return false"
+          >CONTACT</a
+        ></span
+      >
+    </div>
+
+    <h3 id="hedding-title">Wanna come on my next trip? Contact Me.</h3>
+
+    <form>
+      <div id="input-container">
+        <input
+          class="input-box"
+          name="fullname"
+          placeholder="Full Name"
+          type="text"
+          required
+        />
+
+        <input
+          class="input-box"
+          name="email"
+          placeholder="Email"
+          type="email"
+          required
+        />
+
+        <input
+          class="input-box"
+          name="contactnumber"
+          placeholder="Contect number"
+          type="tel"
+          required
+          maxlength="10"
+        />
+
+        <input
+          class="submit-button"
+          name="submit"
+          value="Submit"
+          type="submit"
+        />
+      </div>
+    </form>
+  </body>
+</html>
